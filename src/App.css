@@ -1,3 +1,6 @@
+body {
+    background-color: #808080;
+}
 .container {
     background-color: #c00025;
     width: 100%;
@@ -19,4 +22,62 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .logo {
+      margin: 25px 0px 0px 25px;
+  }
+
+  .App {
+      margin: 25px;
+  }
+
+  .button-area {
+      margin-top: 30px;
+      display: flex;
+  }
+
+  button {
+      border-radius: 50%;
+      width: 90px;
+      height: 90px;
+      margin: 5px;
+      font-size: 30px;
+      color: white;
+      box-shadow: 0px 4px #404040;
+      border: none;
+  }
+
+  .left-side {
+      width: 90%;
+      margin-left: 10%;
+  }
+
+  .special-buttons {
+      background-color: #0088cc;
+  }
+
+  .number-buttons-container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .number-buttons {
+      background-color: #0059B3;
+  }
+
+  .number-buttons:nth-child(10n) {
+      width: 190px;
+      border-radius: 50px;
+  }
+
+  .right-side {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      margin-right: 0;
+  }
+
+  .operator-buttons {
+      background-color: #29A3A3;
   }
